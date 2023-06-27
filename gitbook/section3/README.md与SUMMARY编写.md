@@ -1,0 +1,36 @@
+# README.md 与 SUMMARY.md 编写
+
+## 使用语法
+在Gitbook中所有文字的编写都使用Markdown语法。
+
+## README.md
+这个文件相对于是一本Gitbook的简介，比如我们这本书的README.md :
+
+```md
+# 介绍
+
+GitBook 是一个支持用 MarkDown 编写文档的软件，支持输出 HTML、PDF、eBook 格式文档。
+```
+
+## SUMMARY.md
+这个文件相对于是一本书的目录结构。比如我们这本书的SUMMARY.md :
+
+```md
+# Summary
+
+* [介绍](README.md)
+* [安装](section2/README.md)
+* [目录结构](section3/README.md)
+    * [README.md 与 SUMMARY.md 编写](section3/README.md与SUMMARY编写.md)
+    * [目录初始化](section3/目录初始化.md)
+* [插件](section4/README.md)
+    * [代码高亮](section4/代码高亮.md)
+* [输出](section5/README.md)
+    * [输出为静态网站](section5/输出为静态网站.md)
+    * [输出PDF](section5/输出PDF.md)
+* [发布](section6/README.md)
+    * [发布到 Gitbook.com](section6/发布到Gitbook.com.md)
+    * [发布到 Github Pages](section6/发布到GithubPages.md)
+    * [发布到文件](section6/发布到文件.md)
+* [隐藏 gitbook Published with GitBook](section7/README.md)
+```

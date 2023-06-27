@@ -1,0 +1,19 @@
+{
+  "title": "GitBook 使用教程",
+  "author": "Jason <gitjason@163.com>",
+  "description": "GitBook 使用教程 - ",
+  "language": "zh",
+  "links": {
+    "sidebar": {
+      "fejason.github.io": "https://fejason.github.io"
+    }
+  },
+  "plugins": ["-sharing", "prism"],
+  "pluginsConfig": {
+    "prism": {
+      "css": [
+          "prismjs/themes/prism-okaidia.min.css"
+      ]
+    }
+  }
+}
